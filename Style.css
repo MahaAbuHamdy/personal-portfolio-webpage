@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(227, 227, 227);
+    margin: 20px 50px 20px 50px ;
+}
+header, footer{
+    text-align: center;
+    background-color: rgb(0, 0, 117);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid;
+    border-color:#ccc ;
+}
+
+header h1{
+    padding-bottom: 0px;
+    margin: 0;
+    color:white;
+}
+
+header p{
+    margin-top: 0;
+    color:rgb(215, 201, 201);
+}
+
+header li{
+    display: inline-block;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(214, 203, 0);
+    
+}
+
+#AboutMe{
+
+   background-color: white;
+   color:rgb(21, 8, 61);
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+   padding: 20px;
+   border: 1px solid;
+   border-color:#ccc ;
+}
+
+div.about h2{
+    margin-bottom: 0;
+}
+
+div.about p{
+    margin-top: 0;
+}
+
+div.about img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left:45%;
+}
+
+div.skills{
+    background-image: url(skills.jpg);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    border-color:#ccc ;
+}
+
+div.skills div{
+    background-color: white;
+    color:rgb(21, 8, 61);
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+
+div.skills div span{
+    display: inline-block;
+    background-color: rgb(53, 49, 110);
+    color: white;
+    border-radius: 10px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+
+div.skills div span:hover{
+    background-color:rgb(24, 22, 54);
+    position:relative;
+    transform: translateY(-5px);
+}
+
+div.projects {
+    background-color: white;
+    color:rgb(21, 8, 61);
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid;
+    border-color:#ccc ;
+    position: relative;
+}
+
+div.projects nav{
+    max-width: 200px;
+    border-radius: 15px;
+    color:white;
+    padding: 5px;
+    text-align: center;
+    min-height: 200px;
+}
+
+#project1{
+    background-color: rgb(68, 68, 216);
+}
+#project2{
+    background-color: rgb(58, 58, 192);
+}
+
+#project3{
+    background-color: rgb(47, 47, 155);
+    max-width: 100%;   
+}
+
+#project4{
+    background-color: rgb(36, 36, 127);
+    position: absolute;
+    bottom: 1040px;
+    left: 100px;
+}
+
+div.contact {
+    background-color: rgb(206, 205, 205);
+    color:rgb(21, 8, 61);
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid;
+    border-color:#ccc ;
+}
+div.contact h2{
+    margin-bottom: 0;
+}
+
+div.contact p{
+    margin-top: 0;
+}
+
+label{
+    color:rgb(21, 8, 61);
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color:#ccc ;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    
+    
+}
+
+input[type="submit"] {
+    width: auto; 
+    padding: 8px 20px;
+    background-color: white;
+    color:#242aa9;;
+    border-radius: 5px;
+    border-color:#242aa9; ;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #242aa9;
+    color:white;
+    border-color:white ;
+}
+
+footer{
+    padding: 5px;
+}
+
+footer p{
+   margin:5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(214, 203, 0);
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+div.go-to-top{
+    background-color: darkblue;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: white solid 2px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px; 
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+     
+}
+
+
+
+
+
+
+
